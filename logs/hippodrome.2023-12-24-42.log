@@ -1,0 +1,25 @@
+2023-12-24 21:34:16,374 INFO  Main: Начало скачек. Количество участников: 7
+2023-12-24 21:34:38,587 INFO  Main: Начало скачек. Количество участников: 7
+2023-12-24 21:36:09,013 INFO  Main: Начало скачек. Количество участников: 7
+2023-12-24 21:36:12,882 INFO  Main: Начало скачек. Количество участников: 7
+2023-12-24 21:36:24,830 INFO  Main: Начало скачек. Количество участников: 7
+2023-12-24 21:36:45,185 INFO  Main: Окончание скачек. Победитель: Cherry
+2023-12-24 21:37:13,460 INFO  Main: Начало скачек. Количество участников: 7
+2023-12-24 21:37:33,771 ERROR Horse: Distance cannot be negative.
+2023-12-24 21:37:34,082 ERROR Horse: Distance cannot be negative.
+2023-12-24 21:37:34,086 ERROR Horse: Name cannot be null.
+2023-12-24 21:37:34,090 ERROR Horse: Name cannot be null.
+2023-12-24 21:37:34,094 ERROR Horse: Speed cannot be negative.
+2023-12-24 21:37:34,098 ERROR Horse: Speed cannot be negative.
+2023-12-24 21:37:34,106 ERROR Horse: Name cannot be blank.
+2023-12-24 21:37:34,110 ERROR Horse: Name cannot be blank.
+2023-12-24 21:37:34,113 ERROR Horse: Name cannot be blank.
+2023-12-24 21:37:34,116 ERROR Horse: Name cannot be blank.
+2023-12-24 21:37:34,124 ERROR Horse: Name cannot be blank.
+2023-12-24 21:37:34,128 ERROR Horse: Name cannot be blank.
+2023-12-24 21:37:34,131 ERROR Horse: Name cannot be blank.
+2023-12-24 21:37:34,135 ERROR Horse: Name cannot be blank.
+2023-12-24 21:38:05,060 ERROR Hippodrome: Horses cannot be empty.
+2023-12-24 21:38:05,071 ERROR Hippodrome: Horses cannot be null.
+2023-12-24 21:38:05,080 ERROR Hippodrome: Horses cannot be empty.
+2023-12-24 21:38:05,084 ERROR Hippodrome: Horses cannot be null.
