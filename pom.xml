@@ -9,12 +9,15 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
         <junit-jupiter.version>5.10.1</junit-jupiter.version>
         <mockito-all.version>1.10.19</mockito-all.version>
-        <mockito-inline.version>4.2.0</mockito-inline.version>
-        <mockito-core.version>5.8.0</mockito-core.version>
+        <mockito-inline.version>5.1.1</mockito-inline.version>
+        <mockito-core.version>5.7.0</mockito-core.version>
+        <slf4j-api.version>2.0.9</slf4j-api.version>
+        <logback-classic.version>1.4.14</logback-classic.version>
+        <log4j.version>2.22.0</log4j.version>
     </properties>
 
     <dependencies>
@@ -65,9 +68,39 @@
             <version>${mockito-core.version}</version>
             <scope>test</scope>
         </dependency>
+<!--
+
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.slf4j/slf4j-api &ndash;&gt;
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j-api.version}</version>
+        </dependency>
+
+        &lt;!&ndash; https://mvnrepository.com/artifact/ch.qos.logback/logback-classic &ndash;&gt;
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback-classic.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+-->
+
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
 
 
-
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
 
 
 

@@ -1,0 +1,14 @@
+2023-12-24 21:43:33,149 INFO  Main: Начало скачек. Количество участников: 7
+2023-12-24 21:43:53,523 INFO  Main: Окончание скачек. Победитель: Lobster
+2023-12-24 21:52:39,875 ERROR Hippodrome: Horses cannot be empty.
+2023-12-24 21:52:39,885 ERROR Hippodrome: Horses cannot be null.
+2023-12-24 21:52:39,894 ERROR Hippodrome: Horses cannot be empty.
+2023-12-24 21:52:39,898 ERROR Hippodrome: Horses cannot be null.
+Horses cannot be empty.
+Horses cannot be null.
+Horses cannot be empty.
+Horses cannot be null.
+2023-12-24 21:54:16,220 ERROR   Hippodrome: Horses cannot be empty.
+2023-12-24 21:54:16,272 ERROR   Hippodrome: Horses cannot be null.
+2023-12-24 21:54:16,281 ERROR   Hippodrome: Horses cannot be empty.
+2023-12-24 21:54:16,286 ERROR   Hippodrome: Horses cannot be null.

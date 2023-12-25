@@ -15,6 +15,7 @@ public class TestHorse {
 
     private final String name = "Max";
 
+    // test a. constructor
     @Test
     public void testHorseConstructorNameThrows(){
         assertThrows(IllegalArgumentException.class, () -> new Horse(null, 0));
@@ -83,12 +84,14 @@ public class TestHorse {
         }
     }
 
+    //test b. getName
     @Test
     public void testHorseGetName(){
         Horse h = new Horse(name, 10, 10);
         assertEquals(name, h.getName());
     }
 
+    //test c. getSpeed
     @Test
     public void testHorseGetSpeed(){
         double speed = 10;
@@ -96,6 +99,7 @@ public class TestHorse {
         assertEquals(speed, h.getSpeed());
     }
 
+    //test d. getDistance
     @Test
     public void testHorseGetDistanceWithConstructor(){
         double distance = 10;
@@ -110,13 +114,14 @@ public class TestHorse {
         assertEquals(distance, h.getDistance());
     }
 
+    //test e. move
     @ParameterizedTest
     @ValueSource(doubles = {0.3, 0.5, 0.7})
     public void testHorseMove(double arg){
         try (MockedStatic<Horse> mock = Mockito.mockStatic(Horse.class)) {
             mock.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(arg);
             Horse h = new Horse(name, 10, 10);
-            Double moveH = h.getDistance() + h.getSpeed() * Horse.getRandomDouble(0.2, 0.9);
+            double moveH = h.getDistance() + h.getSpeed() * Horse.getRandomDouble(0.2, 0.9);
             h.move();
             assertEquals(moveH, h.getDistance());
         }

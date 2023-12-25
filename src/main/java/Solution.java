@@ -1,12 +1,14 @@
+/*import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;*/
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Solution {
+//    private static final Logger logger = LoggerFactory.getLogger(Main.class);
+private static final Logger logger = LogManager.getLogger(Solution.class);
     public static void main(String[] args) {
-        try {
-            Horse h = new Horse(null, 0, 0);
-
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
-
+        logger.info("Начало скачек. Количество участников: ");
 
 
     }
